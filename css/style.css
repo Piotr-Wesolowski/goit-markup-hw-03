@@ -8,53 +8,59 @@
   --main-silver: #757575;
 }
 
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-black);
 }
 
-.web-studio-logo {
-
-  text-decoration: none;
+.header-display {
+  display: flex;
+  width: 1600px;
+  height: 80px;
+  align-items: center;
 }
 
-.web-studio-logo-web {
+.web-studio-logo {
+  text-decoration: none;
+  padding-left: 215px;
+ }
 
+.web-studio-logo-web {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1;
   letter-spacing: 0.03em;
+  padding-top: 100px;
   color: var(--main-blue);
 }
 
 .web-studio-logo-studio {
-  
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: var(--second-black);
-  }
+  padding-left: 0;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--second-black);
+}
 
 .web-studio-logo:hover,
 .web-studio-logo:focus {
-
   text-decoration: underline;
   color: var(--main-blue);
 }
 
 .first-list {
-
+  display: flex;
+  width: 254px;
+  justify-content: space-between;
   list-style-type: none;
 }
 
 .agency {
-  
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -66,12 +72,10 @@ body {
 
 .agency:hover,
 .agency:focus {
-
   color: var(--main-blue);
 }
 
 .portfolio {
-  
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -83,12 +87,10 @@ body {
 
 .portfolio:hover,
 .portfolio:focus {
-
   color: var(--main-blue);
 }
 
 .contact {
-
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -104,12 +106,13 @@ body {
 }
 
 .second-list {
-
+  display: flex;
+  width: 295px;
+  justify-content: space-between;
   list-style-type: none;
 }
 
 .mail-top {
-
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -125,7 +128,6 @@ body {
 }
 
 .phone-top {
-
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -137,17 +139,14 @@ body {
 
 .phone-top:hover,
 .phone-top:focus {
-
   color: var(--main-blue);
 }
 
 .main-title-border {
-  
   background: var(--background-grey);
 }
 
 .main-title-text {
-  
   font-style: normal;
   font-size: 44px;
   line-height: 1.36;
@@ -158,7 +157,6 @@ body {
 }
 
 .button-main {
-  
   background: var(--second-white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -176,36 +174,31 @@ body {
 
 .button-main:hover,
 .button-main:focus {
-
   background: var(--main-blue);
   color: var(--main-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .lorem-header {
-
   display: none;
 }
 
 .third-list {
-
   list-style-type: none;
 }
 
 .lorem {
-  
   font-style: normal;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
- }
+}
 
 .lorem-text {
-  
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -214,45 +207,39 @@ body {
 }
 
 .whats-up {
-  
   font-style: normal;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
- }
+}
 
 .fourth-list {
-
   list-style-type: none;
 }
 
 .our-team {
-  
   font-style: normal;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  }
+}
 
 .fifth-list {
   list-style-type: none;
 }
 
 .list-fifth-pic-name {
-  
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
-
 }
 
 .list-fifth-pic-position {
-  
   font-style: normal;
   font-size: 16px;
   line-height: 1;
@@ -262,18 +249,16 @@ body {
 }
 
 .web-studio-logo-studio-bottom {
-
   font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: var(--main-white);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
 }
 
 .web-studio-logo-footer {
-  
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
@@ -285,23 +270,19 @@ body {
 
 .web-studio-logo-footer:hover,
 .webs-tudio-logo-footer:focus {
-
   text-decoration: underline;
   color: var(--main-blue);
 }
 
 .footer-background {
-
- background: var(--background-grey);
+  background: var(--background-grey);
 }
 
 .sixth-list {
-
   list-style-type: none;
 }
 
 .street {
-  
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -310,7 +291,6 @@ body {
 }
 
 .mail-bottom {
-  
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
@@ -321,12 +301,10 @@ body {
 
 .mail-bottom:hover,
 .mail-bottom:focus {
-
   color: var(--main-blue);
 }
 
 .phone-bottom {
- 
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
@@ -337,25 +315,21 @@ body {
 
 .phone-bottom:hover,
 .phone-bottom:focus {
-
   color: var(--main-blue);
 }
 
 .portfolio-filter {
-
   display: none;
 }
 
 .portfolio-list {
-
   list-style-type: none;
 }
 
 .button-portfolio {
-  
   background: var(--second-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   font-family: "Roboto";
   font-style: normal;
@@ -369,22 +343,19 @@ body {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-
   background: var(--main-blue);
   color: var(--main-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .portfolio-pics {
-  
   display: none;
 }
 
 .portfolio-pic-header {
-
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -393,7 +364,6 @@ body {
 }
 
 .portfolio-pic-description {
-  
   font-style: normal;
   font-size: 16px;
   line-height: 1.88;
