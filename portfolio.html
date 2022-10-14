@@ -16,22 +16,20 @@
   </head>
 
   <body>
-    <header>
-      <div>
-        <a class="web-studio-logo" href="index.html">
-          <span class="web-studio-logo-web">Web</span>
-          <span class="web-studio-logo-studio">Studio</span>
-        </a>
-      </div>
+    <header class="header-border">
+      <div class="container">
+      <a class="web-studio-logo" href="index.html">
+        <span class="web-studio-logo-web">Web</span>
+        <span class="web-studio-logo-studio">Studio</span>
+      </a>
 
-      <nav>
-        <ul class="portfolio-list">
-          <li><a class="agency" href="Agencja">Agencja</a></li>
-          <li><a class="portfolio" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="contact" href="Kontakt">Kontakt</a></li>
-        </ul>
-      </nav>
-      <ul class="portfolio-list">
+      <ul class="first-list">
+        <li><a class="agency" href="Agencja">Agencja</a></li>
+        <li><a class="portfolio" href="./portfolio.html">Portfolio</a></li>
+        <li><a class="contact" href="Kontakt">Kontakt</a></li>
+      </ul>
+
+      <ul class="second-list">
         <li>
           <a class="mail-top" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -41,28 +39,33 @@
           <a class="phone-top" href="phone:+48111111111">+48 111 111 111</a>
         </li>
       </ul>
+      </div>
     </header>
 
     <main>
       <section>
+        <div class="container">
+          <div class="container-content">
         <h2 class="portfolio-filter"></h2>
         <ul class="portfolio-list">
           <li>
-            <button class="button-portfolio" type="button">Wszystkie</button>
+            <button class="button-portfolio button-size-1" type="button">Wszystkie</button>
           </li>
           <li>
-            <button class="button-portfolio" type="button">Strony</button>
+            <button class="button-portfolio button-size-2" type="button">Strony</button>
           </li>
           <li>
-            <button class="button-portfolio" type="button">Aplikacje</button>
+            <button class="button-portfolio button-size-3" type="button">Aplikacje</button>
           </li>
           <li>
-            <button class="button-portfolio" type="button">Dizajn</button>
+            <button class="button-portfolio button-size-4" type="button">Dizajn</button>
           </li>
           <li>
-            <button class="button-portfolio" type="button">Marketing</button>
+            <button class="button-portfolio button-size-5" type="button">Marketing</button>
           </li>
         </ul>
+          </div>
+        </div>
       </section>
 
       <section>
@@ -172,12 +175,13 @@
     </main>
 
     <footer class="footer-background">
-      <div>
+      <div class="container">
+        <div class="container-content">
         <a class="web-studio-logo" href="index.html">
           <span class="web-studio-logo-web">Web</span>
           <span class="web-studio-logo-studio-bottom">Studio</span>
         </a>
-      </div>
+      
       <ul class="sixth-list">
         <li><p class="street">m. Warszawa, Aleje Jerozolimskie 21</p></li>
         <li>
@@ -189,6 +193,8 @@
           <a class="phone-bottom" href="tel:+48111111111">+48 111 111 111</a>
         </li>
       </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
