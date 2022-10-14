@@ -23,23 +23,16 @@ body {
   padding: 0 15px;
 }
 
-.web-studio-logo-position: {
- display: flex;
-width: 145px;
-}
-
 .web-studio-logo {
-  
   text-decoration: none;
-  width: 145px;
-  }
+}
 
 .web-studio-logo-web {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1;
+  line-height: 31px;
   letter-spacing: 0.003em;
   color: var(--main-blue);
 }
@@ -68,7 +61,6 @@ width: 145px;
   justify-content: space-between;
   list-style-type: none;
   line-height: 0.875;
-
 }
 
 .agency {
@@ -116,11 +108,6 @@ width: 145px;
   color: var(--main-blue);
 }
 
-.second-list-position {
-
-  display: flex;
-  }
-
 .second-list {
   line-height: 0.875;
   display: flex;
@@ -129,7 +116,6 @@ width: 145px;
   padding: 0;
   margin: 0;
   justify-content: space-between;
-  
 }
 
 .mail-top {
