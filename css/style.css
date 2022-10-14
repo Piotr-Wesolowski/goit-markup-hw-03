@@ -346,10 +346,15 @@ body {
 
 .footer-background {
   background: var(--background-grey);
+  display: flex;
+  height: 252px;
+  width: 100%;
+  align-items: center;
 }
 
 .sixth-list {
   list-style-type: none;
+  padding: 0;
 }
 
 .street {
