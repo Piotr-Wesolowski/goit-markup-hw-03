@@ -7,6 +7,7 @@
   --second-white: #f5f4fa;
   --main-silver: #757575;
   --border-grey: #ececec;
+  --second-border-grey: #EEEEEE;
 }
 
 body {
@@ -294,7 +295,7 @@ body {
 }
 
 .fifth-list li {
-  background: #ffffff;
+  background: var(--main-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -439,18 +440,21 @@ body {
 .button-size-1 {
   width: 121px;
   height: 38px;
+  padding: 0;
   margin-right: 8px;
 }
 
 .button-size-2 {
   width: 93px;
   height: 38px;
+  padding: 0;
   margin-right: 8px;
 }
 
 .button-size-3 {
   width: 114px;
   height: 38px;
+  padding: 0;
   margin-right: 8px;
   
 }
@@ -458,13 +462,15 @@ body {
 .button-size-4 {
   width: 91px;
   height: 38px;
+  padding: 0;
   margin-right: 8px;
 }
 
 .button-size-5 {
   width: 121px;
   height: 38px;
-}
+  padding: 0;
+  }
 
 .portfolio-pics {
   display: none;
@@ -484,4 +490,9 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-silver);
+}
+
+.portfolio-list li {
+  background: var(--main-white);
+  border: 1px solid red;
 }
