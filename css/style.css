@@ -7,7 +7,7 @@
   --second-white: #f5f4fa;
   --main-silver: #757575;
   --border-grey: #ececec;
-  --second-border-grey: #EEEEEE;
+  --second-border-grey: #eeeeee;
 }
 
 body {
@@ -353,6 +353,15 @@ body {
   align-items: center;
 }
 
+.footer-background-portfolio {
+  background: var(--background-grey);
+  display: flex;
+  height: 252px;
+  width: 100%;
+  align-items: center;
+  margin-top: 64px;
+}
+
 .sixth-list {
   list-style-type: none;
   padding: 0;
@@ -408,7 +417,6 @@ body {
   width: 528px;
   display: flex;
   justify-content: space-evenly;
-  
 }
 
 .button-portfolio {
@@ -456,7 +464,6 @@ body {
   height: 38px;
   padding: 0;
   margin-right: 8px;
-  
 }
 
 .button-size-4 {
@@ -470,7 +477,7 @@ body {
   width: 121px;
   height: 38px;
   padding: 0;
-  }
+}
 
 .portfolio-pics {
   display: none;
@@ -482,6 +489,8 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-left: 24px;
+  margin: 20px 0 0 0;
 }
 
 .portfolio-pic-description {
@@ -490,9 +499,21 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-silver);
+  padding-left: 24px;
+  margin: 0 0 50px 0;
 }
 
-.portfolio-list li {
+.portfolio-list-pics {
+  padding: 0;
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-list-pics li {
   background: var(--main-white);
-  border: 1px solid red;
+  border: 1px solid var(--second-border-grey);
+  list-style: none;
+  margin: 0 0 30px 0;
 }
