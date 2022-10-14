@@ -6,8 +6,7 @@
   --main-white: #ffffff;
   --second-white: #f5f4fa;
   --main-silver: #757575;
-  --border-grey: #ECECEC;
-
+  --border-grey: #ececec;
 }
 
 body {
@@ -68,7 +67,7 @@ body {
   justify-content: space-between;
   list-style-type: none;
   line-height: 0.875;
-  }
+}
 
 .agency {
   text-decoration: none;
@@ -158,11 +157,9 @@ body {
 .second-unit {
   background: var(--background-grey);
   display: flex;
-  width: 1600px;
   height: 600px;
   width: 100%;
   align-items: center;
- 
 }
 
 .main-title-text {
@@ -216,7 +213,6 @@ body {
   display: flex;
   width: 100%;
   align-items: center;
- 
 }
 
 .third-list {
@@ -225,7 +221,7 @@ body {
   margin-bottom: 0;
   list-style-type: none;
   padding: 0;
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -252,7 +248,7 @@ body {
 }
 
 .whats-up {
-  margin: 94px 0 0 0 ;
+  margin: 94px 0 0 0;
   display: flex;
   justify-content: center;
   font-style: normal;
@@ -265,20 +261,18 @@ body {
 .fourth-unit {
   background: var(--second-white);
   display: flex;
-  width: 1600px;
   height: 648px;
   width: 100%;
   align-items: center;
- 
 }
 
 .fourth-list {
   width: 1200px;
   list-style-type: none;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   padding: 0;
-  margin: 50px 0 0 0 ;
+  margin: 50px 0 0 0;
 }
 
 .our-team {
@@ -291,6 +285,19 @@ body {
 
 .fifth-list {
   list-style-type: none;
+  width: 1200px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 50px 0 0 0;
+}
+
+.fifth-list li {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .list-fifth-pic-name {
