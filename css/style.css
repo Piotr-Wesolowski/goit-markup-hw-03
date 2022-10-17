@@ -265,6 +265,7 @@ body {
   height: 648px;
   width: 100%;
   align-items: center;
+  margin-top: 94px;
 }
 
 .fourth-list {
@@ -307,6 +308,8 @@ body {
   font-size: 16px;
   line-height: 1;
   text-align: center;
+  margin-bottom: 0;
+  margin-top: 30px;
   letter-spacing: 0.03em;
 }
 
@@ -316,7 +319,9 @@ body {
   line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-silver);
+  margin-top: 10px;
+  margin-bottom: 36px;
+    color: var(--main-silver);
 }
 
 .web-studio-logo-studio-bottom {
@@ -327,6 +332,7 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: var(--main-white);
+  margin-bottom: 0;
 }
 
 .web-studio-logo-footer {
@@ -365,23 +371,29 @@ body {
 .sixth-list {
   list-style-type: none;
   padding: 0;
+  margin-top: 40px;
 }
 
 .street {
   font-style: normal;
+  display: flex;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-white);
+  margin-top: 0;
+  margin-bottom: 9px;
 }
 
 .mail-bottom {
   text-decoration: none;
   font-style: normal;
+  display: flex;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 
 .mail-bottom:hover,
@@ -392,10 +404,12 @@ body {
 .phone-bottom {
   text-decoration: none;
   font-style: normal;
+  display: flex;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
 }
 
 .phone-bottom:hover,
@@ -516,4 +530,5 @@ body {
   border: 1px solid var(--second-border-grey);
   list-style: none;
   margin: 0 0 30px 0;
+  padding: 0;
 }
