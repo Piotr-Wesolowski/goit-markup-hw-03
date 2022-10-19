@@ -533,21 +533,19 @@ body {
   margin-bottom: 20px;
 }
 
-.portfolio-list-pics li{
-  /* display: flex;
-  flex-basis: calc((100%-60px)/3);
-  flex-wrap: wrap;
-  gap: 30px; */
-  background: var(--main-white);
-  border: 1px solid var(--second-border-grey);
-  list-style: none;
-  /* padding: 0; */
-}
-
-.test li{
+.portfolio-list-pics {
   display: flex;
-  flex-basis: calc((100%-60px)/3);
+  /* width: 1200px; */
+  flex-basis: calc (100%/3);
   flex-wrap: wrap;
   gap: 30px;
+  background: var(--main-white);  
+  padding: 0;
+  
+  
+}
 
+.portfolio-list-pics li {
+  border: 1px solid var(--second-border-grey);
+  list-style: none;
 }
