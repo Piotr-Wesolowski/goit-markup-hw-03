@@ -10,6 +10,13 @@
   --second-border-grey: #eeeeee;
 }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-black);
@@ -17,21 +24,47 @@ body {
 
 .container {
   box-sizing: border-box;
-  display: flex;
   max-width: 1200px;
   width: 100%;
-  align-items: center;
   margin: 0 auto;
   padding: 0 15px;
 }
 
+.section {
+  padding: 94px 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.section-portfolio-1 {
+  padding-top: 100px;
+  padding-bottom: 56px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.section-portfolio-2 {
+  padding-bottom: 94px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
 .header-border {
   border-bottom: 1px solid var(--border-grey);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header-position {
+  display: flex;
 }
 
 .web-studio-logo {
   text-decoration: none;
-  margin: 24px 0 25px 0;
 }
 
 .web-studio-logo-web {
@@ -62,12 +95,11 @@ body {
 
 .first-list {
   display: flex;
-  width: 254px;
-  margin: 32px 371px 32px 0;
+  gap: 46px;
   padding-left: 93px;
-  justify-content: space-between;
   list-style-type: none;
   line-height: 0.875;
+  align-items: center;
 }
 
 .agency {
@@ -118,11 +150,10 @@ body {
 .second-list {
   line-height: 0.875;
   display: flex;
-  width: 295px;
+  padding-left: 371px;
   list-style-type: none;
-  padding: 0;
-  margin: 32px 0 32px 0;
-  justify-content: space-between;
+  gap: 46px;
+  align-items: center;
 }
 
 .mail-top {
@@ -157,10 +188,12 @@ body {
 
 .second-unit {
   background: var(--background-grey);
-  display: flex;
   height: 600px;
-  width: 100%;
-  align-items: center;
+}
+
+.second-unit-position {
+  display: flex;
+  justify-content: center;
 }
 
 .main-title-text {
@@ -168,7 +201,6 @@ body {
   height: 120px;
   justify-content: center;
   text-align: center;
-  padding-left: 252px;
   font-style: normal;
   font-size: 44px;
   line-height: 1.36;
@@ -179,11 +211,11 @@ body {
 
 .button-main {
   justify-content: center;
+  align-items: center;
+  display: flex;
   width: 200px;
   height: 50px;
-  padding: 0;
   border: 0;
-  margin-left: 500px;
   background: var(--second-white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -210,16 +242,11 @@ body {
   display: none;
 }
 
-.third-unit {
-  display: flex;
-  width: 100%;
-  align-items: center;
+.third-unit2 {
+  padding-top: 0;
 }
 
 .third-list {
-  width: 1200px;
-  margin-top: 94px;
-  margin-bottom: 0;
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -227,7 +254,6 @@ body {
 }
 
 .lorem {
-  margin: 0;
   padding: 0;
   width: 270px;
   font-style: normal;
@@ -238,7 +264,6 @@ body {
 }
 
 .lorem-text {
-  margin: 10px 0 0 0;
   width: 270px;
   height: 75px;
   font-style: normal;
@@ -249,7 +274,6 @@ body {
 }
 
 .whats-up {
-  margin: 94px 0 0 0;
   display: flex;
   justify-content: center;
   font-style: normal;
@@ -257,24 +281,21 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
 }
 
 .fourth-unit {
   background: var(--second-white);
-  display: flex;
   height: 648px;
-  width: 100%;
-  align-items: center;
-  margin-top: 94px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .fourth-list {
-  width: 1200px;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   padding: 0;
-  margin: 50px 0 0 0;
 }
 
 .our-team {
@@ -283,16 +304,15 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
 }
 
 .fifth-list {
   list-style-type: none;
-  width: 1200px;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   padding: 0;
-  margin: 50px 0 0 0;
 }
 
 .fifth-list li {
@@ -300,16 +320,17 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  height: 368px;
 }
 
 .list-fifth-pic-name {
+  padding-top: 30px;
+  padding-bottom: 10px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
   text-align: center;
-  margin-bottom: 0;
-  margin-top: 30px;
   letter-spacing: 0.03em;
 }
 
@@ -319,9 +340,7 @@ body {
   line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 10px;
-  margin-bottom: 36px;
-    color: var(--main-silver);
+  color: var(--main-silver);
 }
 
 .web-studio-logo-studio-bottom {
@@ -332,7 +351,6 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: var(--main-white);
-  margin-bottom: 0;
 }
 
 .web-studio-logo-footer {
@@ -356,7 +374,7 @@ body {
   display: flex;
   height: 252px;
   width: 100%;
-  align-items: center;
+  padding-top: 60px;
 }
 
 .footer-background-portfolio {
@@ -364,14 +382,12 @@ body {
   display: flex;
   height: 252px;
   width: 100%;
-  align-items: center;
-  margin-top: 64px;
+  padding-top: 60px;
 }
 
 .sixth-list {
   list-style-type: none;
-  padding: 0;
-  margin-top: 40px;
+  padding-top: 20px;
 }
 
 .street {
@@ -381,8 +397,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-white);
-  margin-top: 0;
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
 
 .mail-bottom {
@@ -393,7 +408,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
 
 .mail-bottom:hover,
@@ -409,7 +424,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
 }
 
 .phone-bottom:hover,
@@ -423,14 +437,12 @@ body {
 }
 
 .portfolio-list {
-  margin-top: 94px;
-  margin-bottom: 50px;
   padding: 0;
-  margin-left: 310px;
   list-style-type: none;
-  width: 528px;
   display: flex;
   justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-portfolio {
@@ -457,6 +469,11 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
+}
+
+.button-portfolio-position {
+  display: flex;
+  justify-content: center;
 }
 
 .button-size-1 {
@@ -504,7 +521,6 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   padding-left: 24px;
-  margin: 20px 0 0 0;
 }
 
 .portfolio-pic-description {
@@ -514,21 +530,24 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-silver);
   padding-left: 24px;
-  margin: 0 0 50px 0;
+  margin-bottom: 20px;
 }
 
-.portfolio-list-pics {
-  padding: 0;
-  list-style-type: none;
+.portfolio-list-pics li{
+  /* display: flex;
+  flex-basis: calc((100%-60px)/3);
   flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
-}
-
-.portfolio-list-pics li {
+  gap: 30px; */
   background: var(--main-white);
   border: 1px solid var(--second-border-grey);
   list-style: none;
-  margin: 0 0 30px 0;
-  padding: 0;
+  /* padding: 0; */
+}
+
+.test li{
+  display: flex;
+  flex-basis: calc((100%-60px)/3);
+  flex-wrap: wrap;
+  gap: 30px;
+
 }
