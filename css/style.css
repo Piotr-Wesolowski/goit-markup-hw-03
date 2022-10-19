@@ -540,15 +540,20 @@ body {
   gap: 30px;
   background: var(--main-white);
   padding: 0;
-}
+ }
 
-.portfolio-list-pics li {
+ .portfolio-list-pics img {
+  display: block;
+  }
+
+ .portfolio-list-pics li {
   flex-basis: calc ((100% - 60px)/3);
-}
+  }
 
 .portfolio-pics-border {
   padding-top: 20px;
   list-style: none;
   border: 1px solid var(--second-border-grey);
+  border-top: none;
   list-style: none;
 }
