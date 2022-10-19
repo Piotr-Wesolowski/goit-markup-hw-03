@@ -546,7 +546,8 @@ body {
   flex-basis: calc ((100% - 60px)/3);
 }
 
-.portfolio-list-pics li p {
+.portfolio-pics-border {
+  padding-top: 20px;
   list-style: none;
   border: 1px solid var(--second-border-grey);
   list-style: none;
