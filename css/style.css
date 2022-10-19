@@ -535,17 +535,19 @@ body {
 
 .portfolio-list-pics {
   display: flex;
-  /* width: 1200px; */
-  flex-basis: calc (100%/3);
+  list-style: none;
   flex-wrap: wrap;
   gap: 30px;
-  background: var(--main-white);  
+  background: var(--main-white);
   padding: 0;
-  
-  
 }
 
 .portfolio-list-pics li {
+  flex-basis: calc ((100% - 60px)/3);
+}
+
+.portfolio-list-pics li p {
+  list-style: none;
   border: 1px solid var(--second-border-grey);
   list-style: none;
 }
